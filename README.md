@@ -14,3 +14,6 @@ $this->load->library('ratings');
 ```
 $this->ratings->rating($query, $column);
 ```
+
+
+To be continued...
