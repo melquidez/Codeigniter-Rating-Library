@@ -1,11 +1,13 @@
 # Codeigniter Rating Library
 
+[DEMO](http://melquidezlazaro.ml/ratings/)
+
 This is a simple Rating Library, What this library do is to compute an array of ratings of given item(product) and return an average rating.
 
 
-It's very simple and easy to use, just load the library and call
+It's very simple and easy to use, just load the library and call the method
 
-### Load the library
+### Load the library:
 ``` php
 $this->load->library('ratings');
 ```
@@ -62,5 +64,3 @@ ALTER TABLE `product_ratings`
 ALTER TABLE `product_ratings`
   ADD CONSTRAINT `product_ratings_ibfk_1` FOREIGN KEY (`r_rated_product`) REFERENCES `products` (`p_slug`) ON DELETE CASCADE ON UPDATE CASCADE;
 ```
-## [DEMO](http://melquidezlazaro.ml/ratings/)
-
