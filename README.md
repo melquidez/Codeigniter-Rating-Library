@@ -62,5 +62,5 @@ ALTER TABLE `product_ratings`
 ALTER TABLE `product_ratings`
   ADD CONSTRAINT `product_ratings_ibfk_1` FOREIGN KEY (`r_rated_product`) REFERENCES `products` (`p_slug`) ON DELETE CASCADE ON UPDATE CASCADE;
 ```
-[DEMO](http://melquidezlazaro.ml/ratings/)
+## [DEMO](http://melquidezlazaro.ml/ratings/)
 
